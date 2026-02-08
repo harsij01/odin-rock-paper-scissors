@@ -13,5 +13,6 @@ function getHumanChoice(choices) {
 }
 
 const choices = ["rock", "paper", "scissor"];
-console.log(getComputerChoice(choices))
-console.log(getHumanChoice(choices))
+
+let humanScore = 0;
+let computerScore = 0;
