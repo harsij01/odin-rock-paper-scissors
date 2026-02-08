@@ -12,6 +12,10 @@ function getHumanChoice(choices) {
     }
 }
 
+function playRound(humanChoice, computerChoice) {
+    
+}
+
 const choices = ["rock", "paper", "scissor"];
 
 let humanScore = 0;
