@@ -1,9 +1,17 @@
-function getComputerChoice() {
-    const choices = ["rock", "paper", "scissor"];
-
+function getComputerChoice(choices) {
     const choice = choices[Math.floor(Math.random() * choices.length)];
 
     return choice;
 }
 
-console.log(getComputerChoice());
+function getHumanChoice(choices) {
+    const userChoice = prompt("Choice:");
+
+    if (choices.includes(userChoice)) {
+        return userChoice;
+    }
+}
+
+const choices = ["rock", "paper", "scissor"];
+console.log(getComputerChoice(choices))
+console.log(getHumanChoice(choices))
