@@ -5,7 +5,7 @@ function getComputerChoice(choices) {
 }
 
 function getHumanChoice(choices) {
-    const userChoice = prompt("Choice:");
+    const userChoice = prompt("Choice:").toLowerCase();
 
     if (choices.includes(userChoice)) {
         return userChoice;
